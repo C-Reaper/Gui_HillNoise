@@ -7,10 +7,6 @@ TransformedView tv;
 char mode = 0;
 float freq = 0.1f;
 
-float RGA_New_P_F(float p){
-    return RGA_New_P(p);
-}
-
 void Setup(AlxWindow* w){
     tv = TransformedView_Make(
         (Vec2){ GetWidth(),GetHeight() },
